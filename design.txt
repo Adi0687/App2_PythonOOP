@@ -1,0 +1,19 @@
+Title: Flatmate Bills
+Description: The app takes an input for amount for a certain period of days and determines how much each
+flatmate needs to pay, based on the number if days they were in the house, by generating a Bill! The app
+also generates a PDF file with the names of the flatmates, plus the amount each one needs to pay!
+
+Objects:
+
+        Bill
+            amount
+            period
+        Flatmates
+            name
+            days_in_flat
+            pays(bill)
+        PDF
+            filename
+            generate_pdf(names, pays)
+
+
